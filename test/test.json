@@ -1,0 +1,23 @@
+{"query":{"project":"Sessions","requestTime":300,"startTime":4000,"endTime":4304},
+"meta":[{"e":"event",
+"dv":"device",
+"s":"session",
+"i":"sessionInfo",
+"u":"uniqueId",
+"d":"duration",
+"v":"version",
+"uid": "userId",
+"t":"startTimestamp",
+"p":"parameters",
+"o":"offsetTimestamp",
+"l":"eventLog"}],
+"sessionEvents":[{
+"u":"8927ABBCD2873CCD",
+"v":"1.0",
+"uid":"TheTestUser1",
+"dv":"Apple iPhone 3GS",
+"t":200,
+"l":[{"e":"score","d":"10","o":20,"p":{"500":"5","300":"2"}
+  }]
+}]
+}

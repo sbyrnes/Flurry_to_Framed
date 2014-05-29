@@ -2,9 +2,9 @@
  * Translator from Flurry's Raw Data format into Framed.io's input format, so Flurry customers can use Framed.io
  */
  var fs = require('fs');
- //var Translator = require('./translate.js');
+ var Translator = require('./translate.js');
 
- //var translator = new Translator();
+ var translator = new Translator();
 
  console.log("Flurry To Framed Data Translator v0.1");
 
@@ -15,14 +15,13 @@
 
  console.log("=======");
  console.log("Input: " + inputFile);
- console.log(textInput);
+
+translator.translate(textInput, function(textOutput) {
+   fs.writeFileSync(outputFile, textOutput, "utf-8");
+
+   console.log("=======");
+   console.log("Output: " + outputFile);
 
 
-fs.writeFileSync(outputFile, textInput, "utf-8");
-
-
- console.log("=======");
- console.log("Output: " + outputFile);
-
-
-  console.log("DONE");
+   console.log("DONE");
+});
