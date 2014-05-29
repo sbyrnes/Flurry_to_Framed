@@ -1,6 +1,8 @@
 # test data
 data/*
 
+.DS_STORE
+
 # Logs
 logs
 *.log
