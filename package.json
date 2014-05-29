@@ -1,0 +1,32 @@
+{
+  "name": "Flurry_to_Framed",
+  "description": "Translator from Flurry's Raw Data format into Framed.io's input format, so Flurry customers can use Framed.io.",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=0.6.13"
+  },
+  "author": {
+    "name": "Sean Byrnes",
+    "email": "sean@fogstack.com"
+  },
+  "keywords": [
+    "leak"
+  ],
+  "homepage" : "https://github.com/sbyrnes/Flurry_to_Framed",
+  "bugs" : { "url" : "https://github.com/sbyrnes/Flurry_to_Framed/issues"},
+  "main": "./flurryToFramed.js",
+  "maintainers": [
+    {
+      "name": "Sean Byrnes",
+      "email": "sean@fogstack.com",
+      "url": "http://fogstack.com"
+    }
+  ],
+  "repository" :
+    { "type" : "git",
+      "url" : "https://github.com/sbyrnes/Flurry_to_Framed"
+    },
+  "dependencies": {},
+  "devDependencies": { "expresso" : ">=0.9.2" },
+  "optionalDependencies": {}
+}
